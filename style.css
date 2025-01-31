@@ -1,0 +1,129 @@
+img {
+    width: 300px;
+}
+/*-----Header------- */
+.sombra{
+    background-color: rgb(252, 250, 243);
+    padding: 1px;
+}
+.titulo{
+    font-family: 'Dancing Script', cursive; /* O usa 'Great Vibes', 'Pacifico', o 'Satisfy' */
+    font-size: 90px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.descripcion{
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    margin-top: 1px;
+} 
+.opcionesestilo {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 1%;   
+    margin: 1% 15% 1% 18%;  
+    list-style: none;  
+    padding: 5; 
+                        
+}
+.opcionesestilo li a {
+    text-decoration: none;  
+    font-size: 155%;        
+    color: inherit;        
+    font-weight: normal;    
+    margin-left: 20%;
+    margin-top: 50px; 
+    white-space: nowrap;  
+}
+/*-----Banner 1------ */
+.banner1{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 15% 1% 16%;
+    align-items: center; 
+    padding: 20px;  
+}
+.globo{
+    border-radius: 45px;
+    width: 40%;   
+    height: 350%;
+}
+.frase{
+    width: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: 0 5% 0 5%;
+    align-content: center;
+}
+.autor{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    justify-self: right;
+    margin-left: 70%;
+} 
+/*-----Banner 2------- */
+.banner2 {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin: 4% 15% 4% 15%;
+    width: 90%;
+}
+.cajafotos{
+    display: flex;
+    gap: 2%; 
+    width: 80%; 
+}
+.grupo1{
+    display: flex;
+    gap: 25px;
+}
+.grupo2 {
+    display: flex; 
+    flex-direction: column;  
+    gap: 25px; 
+}
+/*-----Banner 3------- */
+.banner3{
+    margin: 0 20% 10% 18%; 
+}
+.mosaico{
+    
+    font-family: 'Quicksand', sans-serif, 'Merriweather', serif;
+    padding: 1%;
+    gap: 1%;
+}
+.linea{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.cajas{
+    border-radius: 10px;
+    background-color: rgb(238, 225, 206);
+    padding: 2rem;
+    text-align: center;    
+}
+/*-----Footer------- */
+.footer {
+    background-color: rgb(252, 250, 243);         
+    color: #110c0c;                   
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;             
+    padding: 20px 0;                
+    position: fixed;                
+    bottom: 0;
+    width: 100%;                    
+}
+
+.footer-content {
+    max-width: 100%;             
+    margin: 0 auto;                 
+    padding: 0 15px;
+}
+
